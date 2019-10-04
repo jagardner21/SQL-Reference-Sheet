@@ -5,5 +5,5 @@
 2. Type the following statement, then hit enter:
 `CREATE DATABASE databaseName;`
 3. Type `\l` to get a list of databases, and to confirm that your database was created
-![create database]("./CreateDatabase.jpg")
+![create database](CreateDatabase.jpg)
 ## How to delete a data
