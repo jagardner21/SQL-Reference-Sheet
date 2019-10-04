@@ -3,10 +3,11 @@
 ## How to create a database
 1. Open a SQL Shell (psql) window
 2. Type the following statement, then hit enter:  
-`CREATE DATABASE databaseName;`
+```sql CREATE DATABASE databaseName;`
 3. Type `\l` to get a list of databases, and to confirm that your database was created
 ## How to delete a database
-1. Enter command:  
+1. If you are currently connected to the database you wish to delete, enter the command `\q` to quit the database connection (this will quit the SQL session as well)
+2. Enter command:  
 `DROP DATABASE databaseName;`  
 ## How to create a table in a database
 1. Connect to the database  
