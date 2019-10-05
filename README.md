@@ -1,7 +1,13 @@
 # SQL Reference Sheet
 ---
-## How to create a database
-1. Open a SQL Shell (psql) window
+## How to start a SQL Shell (psql) session  
+1. Open a SQL Shell (psql) window by searching for SQL Shell (psql) in the Windows search bar/Cortana  
+2. Line will read "Server [localhost]:", hit Enter  
+3. Line will read "Database [(default database)]:", hit Enter  
+4. Line will read "Port [(default port number)]:", hit Enter  
+5. Line will read "Username [(default username)]:", hit Enter  
+6. Line will read "Password for user (default username):", enter password if you have set one up for Postgres, then Enter.  If you have not set a password, just hit enter  
+## How to create a database  
 2. Type the following statement, then hit enter:  
 ```SQL 
 CREATE DATABASE databaseName;
